@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hannie's Collection | Premium Bakery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Primary navigation">
+      <a href="#home" class="brand-logo">
+        <img src="IMAGE/logo.jpg" alt="Hannie's Collection logo" class="logo-image" />
+        Hannie's Collection
+      </a>
+      <button class="mobile-menu-toggle" aria-label="Open mobile menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#cakes">Cakes</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="#order" class="button button-primary">Order Now</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div class="hero-media">
+        <img src="IMAGE/hero.jpg" alt="Elegant bakery display with cakes and pastries" class="hero-image" />
+      </div>
+      <div class="hero-content container" data-aos="fade-up">
+        <span class="hero-subtitle">Hannie's Collection</span>
+        <h1>Sweet Moments, Beautifully Baked.</h1>
+        <p>Experience premium bakery creations hand-finished with elegance and made to celebrate every special moment.</p>
+        <div class="hero-buttons">
+          <a href="#menu" class="button button-secondary">Explore Our Menu</a>
+          <button class="button button-primary order-button" data-product="Bakery Order">Order on WhatsApp</button>
+        </div>
+      </div>
+      <a href="#about" class="scroll-indicator" aria-label="Scroll down to About section">
+        <span></span>
+        <span>Scroll</span>
+      </a>
+    </section>
+
+    <section id="about" class="about-section container" data-aos="fade-right">
+      <div class="about-image">
+        <img src="IMAGE/cupcake without box.jpg" alt="Assorted cupcakes from Hannie's Collection" />
+      </div>
+      <div class="about-content">
+        <p class="section-label">About Hannie's Collection</p>
+        <h2>Exceptional bakery creations crafted for every celebration.</h2>
+        <p>Hannie's Collection brings premium cakes, cupcakes, cookies, chin chin, peanuts and surprise packages to your table with artful design, fresh ingredients and luxury presentation.</p>
+        <p>Every order is prepared with care, attention to detail and a commitment to creating memorable, delicious moments.</p>
+        <a href="#menu" class="button button-secondary">View the Menu</a>
+      </div>
+    </section>
+
+    <section id="menu" class="menu-section container" data-aos="fade-up">
+      <div class="section-header">
+        <p class="section-label">Our Menu</p>
+        <h2>Delightful treats for every taste.</h2>
+      </div>
+      <div class="menu-grid">
+        <article class="menu-card" data-aos="zoom-in" data-aos-delay="50">
+          <img src="IMAGE/birtday cake.jpg" alt="Premium celebration cake on display" />
+          <h3>Cakes</h3>
+          <p>Indulge in beautifully designed cakes made for birthdays, anniversaries and special occasions.</p>
+          <button class="button button-outline order-button" data-product="Cakes">Order Cakes</button>
+        </article>
+        <article class="menu-card" data-aos="zoom-in" data-aos-delay="100">
+          <img src="IMAGE/cup cake arrange with box.jpg" alt="Decorated cupcakes arranged in a box" />
+          <h3>Cupcakes</h3>
+          <p>Elegant bite-sized cupcakes with rich flavors, perfect for party trays and intimate events.</p>
+          <button class="button button-outline order-button" data-product="Cupcakes">Order Cupcakes</button>
+        </article>
+        <article class="menu-card" data-aos="zoom-in" data-aos-delay="150">
+          <img src="IMAGE/cookies in nylon.jpg" alt="Freshly baked cookies in nylon packaging" />
+          <h3>Cookies</h3>
+          <p>Classic and gourmet cookies baked fresh each day for a satisfying, sweet treat.</p>
+          <button class="button button-outline order-button" data-product="Cookies">Order Cookies</button>
+        </article>
+        <article class="menu-card" data-aos="zoom-in" data-aos-delay="200">
+          <img src="IMAGE/chinchin .jpg" alt="Crunchy chin chin from Hannie's Collection" />
+          <h3>Chin Chin</h3>
+          <p>Crisp, buttery chin chin in a premium recipe, ideal for sharing or gifting.</p>
+          <button class="button button-outline order-button" data-product="Chin Chin">Order Chin Chin</button>
+        </article>
+        <article class="menu-card" data-aos="zoom-in" data-aos-delay="250">
+          <img src="IMAGE/plastic-bags-roasted-peanuts-7.jpg" alt="Roasted peanuts in packaging" />
+          <h3>Peanut</h3>
+          <p>Freshly prepared peanuts with a perfectly roasted finish for a refined snack experience.</p>
+          <button class="button button-outline order-button" data-product="Peanut">Order Peanut</button>
+        </article>
+        <article class="menu-card" data-aos="zoom-in" data-aos-delay="300">
+          <img src="IMAGE/birthday pacckage.jpg" alt="Birthday surprise package with sweets" />
+          <h3>Surprise Packages</h3>
+          <p>Curated gift packages featuring a selection of our finest bakery items for special deliveries.</p>
+          <button class="button button-outline order-button" data-product="Surprise Packages">Order Surprise Package</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="cakes" class="cakes-section container" data-aos="fade-up">
+      <div class="section-header">
+        <p class="section-label">Cake Collection</p>
+        <h2>Choose the perfect cake size for your celebration.</h2>
+      </div>
+      <div class="cakes-grid">
+        <article class="cake-card" data-aos="fade-up" data-aos-delay="50">
+          <img src="IMAGE/small cake.jpg" alt="Small elegant cake with fresh decoration" />
+          <h3>Small Cake</h3>
+          <p>A delicate cake crafted for intimate gatherings and thoughtful gifts.</p>
+          <button class="button button-primary order-button" data-product="Small Cake">Order Small Cake</button>
+        </article>
+        <article class="cake-card" data-aos="fade-up" data-aos-delay="100">
+          <img src="IMAGE/medium cake.jpg" alt="Medium celebration cake with luxurious finish" />
+          <h3>Medium Cake</h3>
+          <p>A refined cake size for family celebrations and stylish events.</p>
+          <button class="button button-primary order-button" data-product="Medium Cake">Order Medium Cake</button>
+        </article>
+        <article class="cake-card" data-aos="fade-up" data-aos-delay="150">
+          <img src="IMAGE/large cake.jpg" alt="Large premium cake with floral accents" />
+          <h3>Large Cake</h3>
+          <p>An impressive centerpiece cake made for larger celebrations and anniversaries.</p>
+          <button class="button button-primary order-button" data-product="Large Cake">Order Large Cake</button>
+        </article>
+        <article class="cake-card" data-aos="fade-up" data-aos-delay="200">
+          <img src="IMAGE/birtday cake.jpg" alt="Birthday cake with modern luxury design" />
+          <h3>Birthday Cake</h3>
+          <p>Custom birthday cakes designed to make your special day unforgettable.</p>
+          <button class="button button-primary order-button" data-product="Birthday Cake">Order Birthday Cake</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="surprise" class="surprise-section container" data-aos="fade-up">
+      <div class="section-header">
+        <p class="section-label">Surprise Packages</p>
+        <h2>Gifts that delight and surprise every recipient.</h2>
+      </div>
+      <div class="surprise-grid">
+        <article class="surprise-card" data-aos="flip-left" data-aos-delay="50">
+          <img src="IMAGE/birthday pacckage.jpg" alt="Birthday surprise package with treats" />
+          <h3>Birthday Surprise</h3>
+          <p>A joyful package curated with bakery favorites and elegant packaging for birthdays.</p>
+          <button class="button button-primary order-button" data-product="Birthday Surprise Package">Order Birthday Surprise</button>
+        </article>
+        <article class="surprise-card" data-aos="flip-left" data-aos-delay="100">
+          <img src="IMAGE/valatine.jpg" alt="Valentine surprise package with chocolate and sweets" />
+          <h3>Valentine Surprise</h3>
+          <p>Romantic sweets and treats arranged in a charming surprise package for loved ones.</p>
+          <button class="button button-primary order-button" data-product="Valentine Surprise Package">Order Valentine Surprise</button>
+        </article>
+        <article class="surprise-card" data-aos="flip-left" data-aos-delay="150">
+          <img src="IMAGE/chocolate.jpg" alt="Chocolate and gift surprise package presentation" />
+          <h3>Chocolate & Gifts</h3>
+          <p>Luxury package with fine chocolate, bakery treats, and gift-ready presentation.</p>
+          <button class="button button-primary order-button" data-product="Chocolate & Gifts Package">Order Chocolate & Gifts</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery-section container" data-aos="fade-up">
+      <div class="section-header">
+        <p class="section-label">Gallery</p>
+        <h2>Beautiful creations from our bakery.</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="50">
+          <img src="IMAGE/birtday cake.jpg" alt="Decorative birthday cake from Hannie's Collection" />
+        </div>
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+          <img src="IMAGE/cupcake without box.jpg" alt="Assorted gourmet cupcakes" />
+        </div>
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="150">
+          <img src="IMAGE/cookiess without box.jpg" alt="Creative cookie assortment" />
+        </div>
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+          <img src="IMAGE/chinchin insid1e container.jpg" alt="Chinchin inside container" />
+        </div>
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="250">
+          <img src="IMAGE/plastic-bags-roasted-peanuts-7.jpg" alt="Premium roasted peanuts" />
+        </div>
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+          <img src="IMAGE/chocolate.jpg" alt="Chocolate gift package" />
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features-section container" data-aos="fade-up">
+      <div class="section-header">
+        <p class="section-label">Why Choose Us</p>
+        <h2>Premium quality that makes every order special.</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card" data-aos="fade-up" data-aos-delay="50">
+          <i class="fa-solid fa-heart"></i>
+          <h3>Made With Love</h3>
+          <p>Every creation is crafted with care, passion and the finest ingredients.</p>
+        </article>
+        <article class="feature-card" data-aos="fade-up" data-aos-delay="100">
+          <i class="fa-solid fa-leaf"></i>
+          <h3>Freshly Prepared</h3>
+          <p>Fresh batches are prepared daily to ensure every item tastes exceptional.</p>
+        </article>
+        <article class="feature-card" data-aos="fade-up" data-aos-delay="150">
+          <i class="fa-solid fa-palette"></i>
+          <h3>Custom Designs</h3>
+          <p>Elegant custom designs tailored to your theme, event and personal style.</p>
+        </article>
+        <article class="feature-card" data-aos="fade-up" data-aos-delay="200">
+          <i class="fa-solid fa-gift"></i>
+          <h3>Perfect For Gifting</h3>
+          <p>Beautifully packaged gifts and surprise bundles for memorable celebrations.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="order" class="cta-section container" data-aos="fade-up">
+      <div class="cta-content">
+        <p class="section-label">Ready to Order</p>
+        <h2>Let us bake something unforgettable for you.</h2>
+        <p>Reach out today and enjoy premium bakery delivery with a personal touch.</p>
+      </div>
+      <button class="button button-primary button-large order-button" data-product="Bakery Order">Order on WhatsApp</button>
+    </section>
+
+    <section id="contact" class="contact-section container" data-aos="fade-up">
+      <div class="section-header">
+        <p class="section-label">Contact</p>
+        <h2>Get in touch with Hannie's Collection.</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <i class="fas fa-phone"></i>
+          <h3>Phone</h3>
+          <a href="tel:+2348030683826">08030683826</a>
+        </div>
+        <div class="contact-card">
+          <i class="fas fa-envelope"></i>
+          <h3>Email</h3>
+          <a href="mailto:ayoh76444@gmail.com" target="_blank" rel="noreferrer">ayoh76444@gmail.com</a>
+        </div>
+        <div class="contact-card">
+          <i class="fab fa-whatsapp"></i>
+          <h3>WhatsApp</h3>
+          <a href="https://wa.me/2348030683826" target="_blank" rel="noreferrer">08030683826</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top container">
+      <div class="footer-brand">
+        <a href="#home" class="footer-logo">Hannie's Collection</a>
+        <p>Elegant bakery creations for every celebration.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p><a href="tel:+2348030683826">08030683826</a></p>
+        <p><a href="mailto:ayoh76444@gmail.com">ayoh76444@gmail.com</a></p>
+      </div>
+      <div class="footer-social">
+        <h4>Follow</h4>
+        <div class="social-icons">
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://wa.me/2348030683826" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>© 2026 Hannie's Collection. All rights reserved.</p>
+      <a href="#home" class="back-to-top" aria-label="Back to top">Back to Top</a>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/2348030683826" class="whatsapp-float" target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      if (window.AOS) {
+        AOS.init({ duration: 800, once: true });
+      }
+    });
+  </script>
+</body>
+</html>
